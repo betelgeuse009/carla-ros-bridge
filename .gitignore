@@ -2,6 +2,7 @@
 build.gradle
 /CMakeLists.txt
 .catkin_workspace
+*.pth
 
 # IDE
 .vscode
@@ -11,3 +12,4 @@ build.gradle
 build/
 install/
 log/
+

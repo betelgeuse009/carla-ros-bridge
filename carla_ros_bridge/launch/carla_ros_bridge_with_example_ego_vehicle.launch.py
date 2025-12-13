@@ -32,7 +32,7 @@ def generate_launch_description():
         ),
         launch.actions.DeclareLaunchArgument(
             name='town',
-            default_value='Town10HD'
+            default_value='cerrina'
         ),
         launch.actions.DeclareLaunchArgument(
             name='passive',
