@@ -34,7 +34,7 @@ elif ROS_VERSION == 2:
         tests_require=['pytest'],
         entry_points={
             'console_scripts': ['bridge = carla_ros_bridge.bridge:main',
-            'seg_node = carla_ros_bridge.carla_seg_node:main'],
+            'carla_segnode = carla_ros_bridge.carla_segnode:main',],
         },
         package_dir={'': 'src'},
         package_data={'': ['CARLA_VERSION']},

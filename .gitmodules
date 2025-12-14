@@ -2,6 +2,6 @@
 	path = carla_msgs
 	url = https://github.com/carla-simulator/ros-carla-msgs
 	branch = master
-[submodule "shared_objects/TwinLiteNetPlus"]
+[submodule "shared_objects/shared_objects/TwinLiteNetPlus"]
 	path = src/shared_objects/src/shared_objects/TwinLiteNetPlus
 	url = git@github.com:chequanghuy/TwinLiteNetPlus.git
