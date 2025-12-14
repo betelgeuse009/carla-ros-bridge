@@ -3,7 +3,7 @@ build.gradle
 /CMakeLists.txt
 .catkin_workspace
 *.pth
-
+DEBUG/*
 # IDE
 .vscode
 .idea
