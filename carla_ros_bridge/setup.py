@@ -34,7 +34,10 @@ elif ROS_VERSION == 2:
         tests_require=['pytest'],
         entry_points={
             'console_scripts': ['bridge = carla_ros_bridge.bridge:main',
-            'carla_segnode = carla_ros_bridge.carla_segnode:main',],
+            'carla_path_planning = carla_ros_bridge.carla_path_planning:main',
+            'carla_throttle_node = carla_ros_bridge.carla_throttle_node:main',
+            'carla_segnode = carla_ros_bridge.carla_segnode:main',
+            'carla_steering_throttle_control = carla_ros_bridge.carla_steering_throttle_control:main'],
         },
         package_dir={'': 'src'},
         package_data={'': ['CARLA_VERSION']},
