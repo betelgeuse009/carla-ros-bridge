@@ -18,7 +18,7 @@ This ROS package is a modified fork of the [carla-simulator/ros-bridge](https://
 1. Set up a project directory and clone the ROS bridge repository and submodules:
 ```
 mkdir -p ~/Workspace/ros-bridge && cd ~/Workspace/ros-bridge
-git clone --recurse-submodules https://github.com/ttgamage/carla-ros-bridge.git
+git clone --recurse-submodules https://github.com/betelgeuse009/carla-ros-bridge.git
 mv carla-ros-bridge src
 ```
 2. Set up ROS environment and install dependencies:
