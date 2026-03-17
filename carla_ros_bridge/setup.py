@@ -34,6 +34,9 @@ elif ROS_VERSION == 2:
         tests_require=['pytest'],
         entry_points={
             'console_scripts': ['bridge = carla_ros_bridge.bridge:main',
+            'carla_path_planning_plus1 = carla_ros_bridge.carla_path_planning_plus1:main',
+            'carla_path_planning_plus2 = carla_ros_bridge.carla_path_planning_plus2:main',
+            'carla_path_planning_plus3 = carla_ros_bridge.carla_path_planning_plus3:main',
             'carla_path_planning = carla_ros_bridge.carla_path_planning:main',
             'carla_throttle_node = carla_ros_bridge.carla_throttle_node:main',
             'carla_segnode = carla_ros_bridge.carla_segnode:main',
