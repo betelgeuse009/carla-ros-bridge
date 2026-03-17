@@ -3,8 +3,8 @@
 	url = https://github.com/carla-simulator/ros-carla-msgs
 	branch = master
 [submodule "shared_objects/shared_objects/TwinLiteNetPlus"]
-	path = src/shared_objects/src/shared_objects/TwinLiteNetPlus
+	path = shared_objects/shared_objects/TwinLiteNetPlus
 	url = git@github.com:chequanghuy/TwinLiteNetPlus.git
-[submodule "src/rtabmap_ros"]
-	path = src/rtabmap_ros
+[submodule "rtabmap_ros"]
+	path = rtabmap_ros
 	url = git@github.com:AutonomousDrivingH2politO/rtabmap_ros.git
