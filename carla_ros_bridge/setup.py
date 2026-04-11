@@ -40,6 +40,7 @@ elif ROS_VERSION == 2:
             'carla_path_planning = carla_ros_bridge.carla_path_planning:main',
             'carla_throttle_node = carla_ros_bridge.carla_throttle_node:main',
             'carla_segnode = carla_ros_bridge.carla_segnode:main',
+            'carla_odom_relay = carla_ros_bridge.carla_odom_relay:main',
             'carla_steering_throttle_control = carla_ros_bridge.carla_steering_throttle_control:main',
             'carla_stop_node = carla_ros_bridge.carla_stop_node:main'],
         },
