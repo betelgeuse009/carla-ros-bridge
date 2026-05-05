@@ -38,6 +38,8 @@ elif ROS_VERSION == 2:
             'carla_path_planning_plus2 = carla_ros_bridge.carla_path_planning_plus2:main',
             'carla_path_planning_plus3 = carla_ros_bridge.carla_path_planning_plus3:main',
             'carla_path_planning = carla_ros_bridge.carla_path_planning:main',
+            'carla_obstacle_avoidance = carla_ros_bridge.carla_obstacle_avoidance_v2:main',
+            'carla_old_obstacle_avoidance = carla_ros_bridge.carla_obstacle_avoidance:main',
             'carla_throttle_node = carla_ros_bridge.carla_throttle_node:main',
             'carla_segnode = carla_ros_bridge.carla_segnode:main',
             'carla_odom_relay = carla_ros_bridge.carla_odom_relay:main',
