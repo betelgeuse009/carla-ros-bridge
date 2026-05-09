@@ -41,6 +41,7 @@ elif ROS_VERSION == 2:
             'carla_obstacle_avoidance = carla_ros_bridge.carla_obstacle_avoidance_v2:main',
             'carla_old_obstacle_avoidance = carla_ros_bridge.carla_obstacle_avoidance:main',
             'carla_throttle_node = carla_ros_bridge.carla_throttle_node:main',
+            'carla_throttle_node_v2 = carla_ros_bridge.carla_throttle_node_v2:main',
             'carla_segnode = carla_ros_bridge.carla_segnode:main',
             'carla_odom_relay = carla_ros_bridge.carla_odom_relay:main',
             'carla_steering_throttle_control = carla_ros_bridge.carla_steering_throttle_control:main',
