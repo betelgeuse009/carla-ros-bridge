@@ -46,6 +46,10 @@ def generate_launch_description():
             name='fixed_delta_seconds',
             default_value='0.05'
         ),
+        launch.actions.DeclareLaunchArgument(
+            name='synchronous_mode',
+            default_value='True'
+        ),
         launch.actions.IncludeLaunchDescription(
             launch.launch_description_sources.PythonLaunchDescriptionSource(
                 os.path.join(get_package_share_directory(
