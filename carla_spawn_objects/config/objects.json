@@ -24,6 +24,7 @@
         {
             "type": "vehicle.micro.microlino",
             "id": "hero",
+            "spawn_point": {"x": 372.6, "y": -46.8, "z": 3.0, "roll": 0.0, "pitch": 0.0, "yaw": 144.0},
             "sensors": 
             [
                 {
